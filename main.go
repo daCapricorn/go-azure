@@ -168,7 +168,7 @@ func rootHandler(w http.ResponseWriter, r *http.Request) {
 
 	w.WriteHeader(http.StatusOK)
 
-	fmt.Fprint(w, `{"message": "Hello from Azure Websites!"}`)
+	fmt.Fprint(w, `{"message": "Hello from Steven!"}`)
 }
 
 func defineHandlers() {
